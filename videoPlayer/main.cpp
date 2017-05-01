@@ -29,7 +29,12 @@ void onTrackbarSlide(int pos, void *) {
 
 int main(int argc, const char * argv[]) {
     cv::namedWindow("Example2_4", cv::WINDOW_AUTOSIZE);
-    g_cap.open( cv::String(argv[1]) );
+    if (argc == 1) {
+        g_cap.open(0);
+    } else {
+        g_cap.open( cv::String(argv[1]) );
+    }
+    
     int frames = (int)g_cap.get(cv::CAP_PROP_FRAME_COUNT);
     int tmpw = (int)g_cap.get(cv::CAP_PROP_FRAME_WIDTH);
     int tmph = (int)g_cap.get(cv::CAP_PROP_FRAME_HEIGHT);
@@ -46,7 +51,9 @@ int main(int argc, const char * argv[]) {
             g_dontset = 1;
             
             cv::setTrackbarPos("Position", "Example 2_4", current_pos);
-            cv::imshow( "Example 2_4", frame);
+            cv::Mat cannyFrame;
+            cv::Canny(frame, cannyFrame, 10, 100);
+            cv::imshow( "Example 2_4", cannyFrame);
             g_run -= 1;
         }
         
