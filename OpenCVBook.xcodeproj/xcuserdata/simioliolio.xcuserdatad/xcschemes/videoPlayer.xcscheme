@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0820"
-   version = "1.3">
+   LastUpgradeVersion = "0900"
+   version = "1.8">
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
@@ -17,7 +17,7 @@
                BlueprintIdentifier = "91D1D07A1EAFED78001A293E"
                BuildableName = "videoPlayer"
                BlueprintName = "videoPlayer"
-               ReferencedContainer = "container:videoPlayer.xcodeproj">
+               ReferencedContainer = "container:OpenCVBook.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -26,6 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
+      language = ""
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
@@ -35,7 +36,7 @@
             BlueprintIdentifier = "91D1D07A1EAFED78001A293E"
             BuildableName = "videoPlayer"
             BlueprintName = "videoPlayer"
-            ReferencedContainer = "container:videoPlayer.xcodeproj">
+            ReferencedContainer = "container:OpenCVBook.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +59,7 @@
             BlueprintIdentifier = "91D1D07A1EAFED78001A293E"
             BuildableName = "videoPlayer"
             BlueprintName = "videoPlayer"
-            ReferencedContainer = "container:videoPlayer.xcodeproj">
+            ReferencedContainer = "container:OpenCVBook.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <CommandLineArguments>
@@ -83,7 +84,7 @@
             BlueprintIdentifier = "91D1D07A1EAFED78001A293E"
             BuildableName = "videoPlayer"
             BlueprintName = "videoPlayer"
-            ReferencedContainer = "container:videoPlayer.xcodeproj">
+            ReferencedContainer = "container:OpenCVBook.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
