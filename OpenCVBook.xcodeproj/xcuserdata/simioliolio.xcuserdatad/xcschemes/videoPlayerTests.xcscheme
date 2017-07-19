@@ -17,8 +17,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "916B68971F1F3C74001D1FDF"
-               BuildableName = "videoPlayerTests.xctest"
-               BlueprintName = "videoPlayerTests"
+               BuildableName = "OpenCVBookTests.xctest"
+               BlueprintName = "OpenCVBookTests"
                ReferencedContainer = "container:OpenCVBook.xcodeproj">
             </BuildableReference>
          </TestableReference>

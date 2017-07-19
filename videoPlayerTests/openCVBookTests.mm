@@ -1,6 +1,6 @@
 //
-//  videoPlayerTests.m
-//  videoPlayerTests
+//  openCVBookTests.m
+//  openCVBookTests
 //
 //  Created by Simon Haycock on 19/07/2017.
 //  Copyright © 2017 oxygn. All rights reserved.
@@ -11,11 +11,11 @@
 #import <XCTest/XCTest.h>
 
 
-@interface videoPlayerTests : XCTestCase
+@interface openCVBookTests : XCTestCase
 
 @end
 
-@implementation videoPlayerTests
+@implementation openCVBookTests
 
 - (void)setUp {
     [super setUp];
