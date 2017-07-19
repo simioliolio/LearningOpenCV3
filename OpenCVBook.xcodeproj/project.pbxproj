@@ -600,6 +600,7 @@
 		91D1D0831EAFED78001A293E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				DEVELOPMENT_TEAM = A4X9GJ79LS;
 				HEADER_SEARCH_PATHS = /usr/local/Cellar/opencv3/3.2.0/include;
 				LD_RUNPATH_SEARCH_PATHS = /usr/local/Cellar/opencv3/3.2.0/lib;
@@ -614,6 +615,7 @@
 		91D1D0841EAFED78001A293E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_WARN_DOCUMENTATION_COMMENTS = NO;
 				DEVELOPMENT_TEAM = A4X9GJ79LS;
 				HEADER_SEARCH_PATHS = /usr/local/Cellar/opencv3/3.2.0/include;
 				LD_RUNPATH_SEARCH_PATHS = /usr/local/Cellar/opencv3/3.2.0/lib;
